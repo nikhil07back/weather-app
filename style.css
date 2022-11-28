@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.container{
+    height: 100vh;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("https://source.unsplash.com/random/900×700/?fruit");
+    background-position: 100%; 
+    background-image: cover;
+    background-size: 100%;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+.form-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 200px;
+    border: none;
+}
+
+.form-box input{
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 20px 40px;
+}
+
+.form-box button{
+    background-color: rgb(134, 223, 109);
+    color: black;
+    padding: 20px 40px;
+    border-radius: 20%;
+    margin: 20px;                  
+}
+
+
+.output-box{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box{
+    min-height: 30%;
+    min-width: 30%;
+    backdrop-filter: blur(23px) saturate(195%);
+    -webkit-backdrop-filter: blur(23px) saturate(195%);
+    background-color: rgba(36, 48, 75, 0.99);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    text-align: center;
+    padding: 20px;
+}
